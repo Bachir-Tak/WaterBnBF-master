@@ -12,8 +12,7 @@ from flask import render_template
 from flask_mqtt import Mqtt
 from flask_pymongo import PyMongo
 from pymongo import MongoClient
-import time
-data="test"
+
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Initialisation :  Mongo DataBase
 
@@ -24,7 +23,8 @@ ADMIN=True # Faut etre ADMIN pour ecrire dans la base
 client = MongoClient("mongodb+srv://visitor:doliprane@ac-hb4shhb-shard-00-02.7c2pqfs.mongodb.net/?retryWrites=true&w=majority")
 
 # db is an attribute of client =>  all databases 
-
+global data;
+data=dict();
 # Looking for "WaterBnB" database
 #https://stackoverflow.com/questions/32438661/check-database-exists-in-mongodb-using-pymongo
 dbname= 'WaterBnB'
@@ -156,7 +156,7 @@ def handle_mqtt_message(client, userdata, msg):
         payload=msg.payload.decode()
     )
     print("oui")
-    time.sleep(1)
+
     #    print('Received message on topic: {topic} with payload: {payload}'.format(**data))
     print("\n msg.topic = {}".format(msg.topic))
     print("\n topicname = {}".format(topicname))
