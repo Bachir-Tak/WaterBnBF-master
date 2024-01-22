@@ -12,6 +12,7 @@ from flask import render_template
 from flask_mqtt import Mqtt
 from flask_pymongo import PyMongo
 from pymongo import MongoClient
+import time
 data="test"
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Initialisation :  Mongo DataBase
@@ -154,6 +155,8 @@ def handle_mqtt_message(client, userdata, msg):
         topic=msg.topic,
         payload=msg.payload.decode()
     )
+    print("oui")
+    time.sleep(1)
     #    print('Received message on topic: {topic} with payload: {payload}'.format(**data))
     print("\n msg.topic = {}".format(msg.topic))
     print("\n topicname = {}".format(topicname))
