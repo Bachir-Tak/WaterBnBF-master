@@ -1,0 +1,2630 @@
+[
+    {
+        "id": "fd826bd405a70e3d",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "91d3e3e2f3d403b2",
+        "type": "tab",
+        "label": "Swimming Pools",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "39e2d54540c25385",
+        "type": "tab",
+        "label": "WaterBnB",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "127cec26e870f69d",
+        "type": "group",
+        "z": "39e2d54540c25385",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "5213366ce5325c0f",
+            "dbe366221b95a8ad",
+            "977ec64fd0a3f20a"
+        ],
+        "x": 94,
+        "y": 399,
+        "w": 772,
+        "h": 142
+    },
+    {
+        "id": "dd4dac0e3a9567a6",
+        "type": "group",
+        "z": "39e2d54540c25385",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "8480b361e48d4086",
+            "d957d62411d4bebd"
+        ],
+        "x": 94,
+        "y": 299,
+        "w": 412,
+        "h": 82
+    },
+    {
+        "id": "d0e0f2bdd9e9e6bb",
+        "type": "group",
+        "z": "39e2d54540c25385",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "ad760199875f2498",
+            "7b1066f555d47e02",
+            "0f74e704dc383e08",
+            "417d6ca635ff8337",
+            "dc29e6be177690b1"
+        ],
+        "x": 94,
+        "y": 559,
+        "w": 792,
+        "h": 142
+    },
+    {
+        "id": "b5407bdd7a5eb12d",
+        "type": "group",
+        "z": "39e2d54540c25385",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "9c7588438b2eb37b",
+            "d4dcfba5d7c3b1d4",
+            "34db77b0c904ccd0"
+        ],
+        "x": 94,
+        "y": 919,
+        "w": 532,
+        "h": 162
+    },
+    {
+        "id": "acea97b9674922d4",
+        "type": "group",
+        "z": "39e2d54540c25385",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "bec3af912684badc",
+            "db94cc8baa1a3ad0",
+            "a44a491c0691ad43",
+            "7fee30a2b540f5d7"
+        ],
+        "x": 94,
+        "y": 739,
+        "w": 812,
+        "h": 142
+    },
+    {
+        "id": "b0fb6431ceceb973",
+        "type": "serial-port",
+        "serialport": "COM6",
+        "serialbaud": "9600",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "15532c600da0705e",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#304f78",
+                "baseFont": "Lucida Sans Unicode,Lucida Grande,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#4B7930",
+                    "value": "#304f78",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#304f78",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#4673af",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#304f78",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "Lucida Sans Unicode,Lucida Grande,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 10,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "83a7f1a9642b1bb0",
+        "type": "ui_tab",
+        "name": "WIFI",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b7a8fcbd8d16fb75",
+        "type": "ui_group",
+        "name": "Config",
+        "tab": "83a7f1a9642b1bb0",
+        "order": 1,
+        "disp": true,
+        "width": "9",
+        "collapse": true,
+        "className": "HomeCSS"
+    },
+    {
+        "id": "24ffec0e007d18fa",
+        "type": "ui_group",
+        "name": "Metrics",
+        "tab": "83a7f1a9642b1bb0",
+        "order": 2,
+        "disp": true,
+        "width": "9",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "3d8688b687550d5a",
+        "type": "ui_group",
+        "name": "Status",
+        "tab": "83a7f1a9642b1bb0",
+        "order": 3,
+        "disp": true,
+        "width": "9",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "f45eb0c7600b8b4a",
+        "type": "ui_tab",
+        "name": "Serial",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "791c60960a560ec7",
+        "type": "ui_group",
+        "name": "Metrics",
+        "tab": "f45eb0c7600b8b4a",
+        "order": 1,
+        "disp": true,
+        "width": "9",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "902d2a402114a4db",
+        "type": "ui_group",
+        "name": "Config",
+        "tab": "f45eb0c7600b8b4a",
+        "order": 2,
+        "disp": true,
+        "width": "9",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "59d6c12b9f51910a",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "c381d97f0297a045",
+        "type": "ui_group",
+        "z": "91d3e3e2f3d403b2",
+        "name": "SP",
+        "tab": "580b23053f774d4a",
+        "order": 1,
+        "disp": true,
+        "width": "25",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2440edb5d689cbd1",
+        "type": "mqtt-broker",
+        "name": "Mosquitto broker",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "tls": "",
+        "clientid": "GMM",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "8cac27d44580223b",
+        "type": "ui_group",
+        "name": "Pour mettre votre dashboard de l'ESP/piscine",
+        "tab": "5f184e1fabd409d3",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "580b23053f774d4a",
+        "type": "ui_tab",
+        "z": "91d3e3e2f3d403b2",
+        "name": "Tab of  Swimming Pools",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "5f184e1fabd409d3",
+        "type": "ui_tab",
+        "name": "Dash de l'ESP",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "f5a02307f3956e9b",
+        "type": "ui_group",
+        "z": "39e2d54540c25385",
+        "name": "Service WaterBnB :",
+        "tab": "9f7bc289c1b48fe4",
+        "order": 1,
+        "disp": true,
+        "width": "20",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "33d7d4d518069598",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "mqtt.eclipseprojects.io",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "15",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "9f7bc289c1b48fe4",
+        "type": "ui_tab",
+        "z": "39e2d54540c25385",
+        "name": "WaterBnB",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "ed6f87745db484a3",
+        "type": "ui_led",
+        "z": "fd826bd405a70e3d",
+        "order": 1,
+        "group": "b7a8fcbd8d16fb75",
+        "width": 0,
+        "height": 0,
+        "label": "Hot",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 730,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "5f4ef84074b2964d",
+        "type": "function",
+        "z": "fd826bd405a70e3d",
+        "name": "Led_Hot",
+        "func": "if (msg.payload.status.heat == \"on\") {\n    msg.payload = true;\n}\nelse if (msg.payload.status.heat == \"off\") {\n    msg.payload = false;\n}\nelse {\n    msg.payload = msg.payload.status.heat\n};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 220,
+        "wires": [
+            [
+                "ed6f87745db484a3"
+            ]
+        ]
+    },
+    {
+        "id": "c3ff322501f39690",
+        "type": "function",
+        "z": "fd826bd405a70e3d",
+        "name": "Led_Cold",
+        "func": "if (msg.payload.status.cold==\"on\"){\n    msg.payload=true;\n}\nelse if (msg.payload.status.cold == \"off\") {\n    msg.payload = false;\n}\nelse{\nmsg.payload = msg.payload.status.cold};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 280,
+        "wires": [
+            [
+                "b5a3190fb41dd72d"
+            ]
+        ]
+    },
+    {
+        "id": "b5a3190fb41dd72d",
+        "type": "ui_led",
+        "z": "fd826bd405a70e3d",
+        "order": 1,
+        "group": "b7a8fcbd8d16fb75",
+        "width": 0,
+        "height": 0,
+        "label": "Cold",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 830,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "a742075832f46020",
+        "type": "function",
+        "z": "fd826bd405a70e3d",
+        "name": "Temperature",
+        "func": "msg.payload = msg.payload.status.temperature;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 380,
+        "wires": [
+            [
+                "9cb74f6232038b0e"
+            ]
+        ]
+    },
+    {
+        "id": "d95a991ae3214ddf",
+        "type": "function",
+        "z": "fd826bd405a70e3d",
+        "name": "Light",
+        "func": "msg.payload = msg.payload.status.light;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 460,
+        "wires": [
+            [
+                "1d0b024cc3f95073"
+            ]
+        ]
+    },
+    {
+        "id": "9cb74f6232038b0e",
+        "type": "ui_chart",
+        "z": "fd826bd405a70e3d",
+        "name": "",
+        "group": "24ffec0e007d18fa",
+        "order": 3,
+        "width": "0",
+        "height": "0",
+        "label": "Temperature",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": false,
+        "ymin": "-80",
+        "ymax": "80",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 930,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1d0b024cc3f95073",
+        "type": "ui_gauge",
+        "z": "fd826bd405a70e3d",
+        "name": "",
+        "group": "24ffec0e007d18fa",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Light",
+        "label": "",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "4000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 790,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "a52486be131e91b0",
+        "type": "ui_led",
+        "z": "fd826bd405a70e3d",
+        "order": 4,
+        "group": "b7a8fcbd8d16fb75",
+        "width": 0,
+        "height": 0,
+        "label": "Fire",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 810,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "614417a2f0e5f365",
+        "type": "function",
+        "z": "fd826bd405a70e3d",
+        "name": "Fire",
+        "func": "msg.payload = msg.payload.status.fire;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 540,
+        "wires": [
+            [
+                "a52486be131e91b0"
+            ]
+        ]
+    },
+    {
+        "id": "f0e39adb5fd870c2",
+        "type": "serial out",
+        "z": "fd826bd405a70e3d",
+        "name": "SerialOut",
+        "serial": "b0fb6431ceceb973",
+        "x": 860,
+        "y": 2120,
+        "wires": []
+    },
+    {
+        "id": "0def5da3283591ed",
+        "type": "http in",
+        "z": "fd826bd405a70e3d",
+        "name": "",
+        "url": "/esp",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 100,
+        "y": 380,
+        "wires": [
+            [
+                "5f4ef84074b2964d",
+                "c3ff322501f39690",
+                "a742075832f46020",
+                "d95a991ae3214ddf",
+                "614417a2f0e5f365"
+            ]
+        ]
+    },
+    {
+        "id": "b04d38bd666c3340",
+        "type": "http request",
+        "z": "fd826bd405a70e3d",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 550,
+        "y": 740,
+        "wires": [
+            [
+                "3f90b4f14c1deb32",
+                "15703878d877515a",
+                "84f7e0621b7754a3",
+                "fb8a08260bdc86a6",
+                "c5e8f5f2db87d4af",
+                "387041a431869dca"
+            ]
+        ]
+    },
+    {
+        "id": "fc6a3ece034cce90",
+        "type": "ui_dropdown",
+        "z": "fd826bd405a70e3d",
+        "name": "",
+        "label": "",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "3d8688b687550d5a",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": true,
+        "options": [
+            {
+                "label": "Temperature",
+                "value": "temperature",
+                "type": "str"
+            },
+            {
+                "label": "Light",
+                "value": "light",
+                "type": "str"
+            },
+            {
+                "label": "Cool",
+                "value": "cool",
+                "type": "str"
+            },
+            {
+                "label": "Heat",
+                "value": "heat",
+                "type": "str"
+            },
+            {
+                "label": "LT",
+                "value": "LT",
+                "type": "str"
+            },
+            {
+                "label": "HT",
+                "value": "HT",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 220,
+        "y": 640,
+        "wires": [
+            [
+                "544f8e10caf34d3a"
+            ]
+        ]
+    },
+    {
+        "id": "544f8e10caf34d3a",
+        "type": "function",
+        "z": "fd826bd405a70e3d",
+        "name": "Value",
+        "func": "if (Array.isArray(msg.payload)){\n    var query=\"\";\nmsg.payload.forEach(function(element) {\n    if(element==msg.payload[0]){\n    query+=element}\n    else{\n        query=query+\"&\"+element\n    }\n});}\nmsg.url =\"http://172.20.10.3/value?\"+query;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "0",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 760,
+        "wires": [
+            [
+                "2b90eb78141ca52a"
+            ]
+        ]
+    },
+    {
+        "id": "3f90b4f14c1deb32",
+        "type": "function",
+        "z": "fd826bd405a70e3d",
+        "name": "Heat",
+        "func": "msg.payload = msg.payload.heat;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 720,
+        "wires": [
+            [
+                "cc48b0d2f676ef50"
+            ]
+        ]
+    },
+    {
+        "id": "15703878d877515a",
+        "type": "function",
+        "z": "fd826bd405a70e3d",
+        "name": "Cold",
+        "func": "msg.payload = msg.payload.cool;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 780,
+        "wires": [
+            [
+                "f1903a939568211f"
+            ]
+        ]
+    },
+    {
+        "id": "84f7e0621b7754a3",
+        "type": "function",
+        "z": "fd826bd405a70e3d",
+        "name": "Temperature",
+        "func": "msg.payload = msg.payload.temperature;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 870,
+        "y": 880,
+        "wires": [
+            [
+                "b7772e1a90a33149"
+            ]
+        ]
+    },
+    {
+        "id": "fb8a08260bdc86a6",
+        "type": "function",
+        "z": "fd826bd405a70e3d",
+        "name": "Light",
+        "func": "msg.payload = msg.payload.light;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 960,
+        "wires": [
+            [
+                "93bff5dcdac91f28"
+            ]
+        ]
+    },
+    {
+        "id": "c5e8f5f2db87d4af",
+        "type": "function",
+        "z": "fd826bd405a70e3d",
+        "name": "LT",
+        "func": "msg.payload = msg.payload.LT;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 1040,
+        "wires": [
+            [
+                "db431a0424004f26"
+            ]
+        ]
+    },
+    {
+        "id": "387041a431869dca",
+        "type": "function",
+        "z": "fd826bd405a70e3d",
+        "name": "HT",
+        "func": "msg.payload = msg.payload.HT;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 1080,
+        "wires": [
+            [
+                "cd80e70ae36a944d"
+            ]
+        ]
+    },
+    {
+        "id": "cc48b0d2f676ef50",
+        "type": "ui_text",
+        "z": "fd826bd405a70e3d",
+        "group": "3d8688b687550d5a",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Heat",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1070,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "f1903a939568211f",
+        "type": "ui_text",
+        "z": "fd826bd405a70e3d",
+        "group": "3d8688b687550d5a",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Cold",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1090,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "93bff5dcdac91f28",
+        "type": "ui_text",
+        "z": "fd826bd405a70e3d",
+        "group": "3d8688b687550d5a",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Light",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1110,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "db431a0424004f26",
+        "type": "ui_text",
+        "z": "fd826bd405a70e3d",
+        "group": "3d8688b687550d5a",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "LT",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 990,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "cd80e70ae36a944d",
+        "type": "ui_text",
+        "z": "fd826bd405a70e3d",
+        "group": "3d8688b687550d5a",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "HT",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 930,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "b7772e1a90a33149",
+        "type": "ui_text",
+        "z": "fd826bd405a70e3d",
+        "group": "3d8688b687550d5a",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Temp",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1090,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "c4f30a0503150376",
+        "type": "ui_text_input",
+        "z": "fd826bd405a70e3d",
+        "name": "",
+        "label": "Temperature",
+        "tooltip": "",
+        "group": "b7a8fcbd8d16fb75",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "temperature",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 110,
+        "y": 1320,
+        "wires": [
+            [
+                "1eb5605f661843d9"
+            ]
+        ]
+    },
+    {
+        "id": "33de84aa7cd39254",
+        "type": "ui_text_input",
+        "z": "fd826bd405a70e3d",
+        "name": "",
+        "label": "Cold",
+        "tooltip": "",
+        "group": "b7a8fcbd8d16fb75",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "cool",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 90,
+        "y": 1480,
+        "wires": [
+            [
+                "1eb5605f661843d9"
+            ]
+        ]
+    },
+    {
+        "id": "b1f3d90b05ee38eb",
+        "type": "ui_text_input",
+        "z": "fd826bd405a70e3d",
+        "name": "",
+        "label": "Heat",
+        "tooltip": "",
+        "group": "b7a8fcbd8d16fb75",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "heat",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 90,
+        "y": 1600,
+        "wires": [
+            [
+                "1eb5605f661843d9"
+            ]
+        ]
+    },
+    {
+        "id": "5463f2cf1391e27a",
+        "type": "ui_text_input",
+        "z": "fd826bd405a70e3d",
+        "name": "",
+        "label": "HT",
+        "tooltip": "",
+        "group": "b7a8fcbd8d16fb75",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "HT",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 110,
+        "y": 1680,
+        "wires": [
+            [
+                "1eb5605f661843d9"
+            ]
+        ]
+    },
+    {
+        "id": "7b5c35969b346bab",
+        "type": "ui_text_input",
+        "z": "fd826bd405a70e3d",
+        "name": "",
+        "label": "LT",
+        "tooltip": "",
+        "group": "b7a8fcbd8d16fb75",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "LT",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 90,
+        "y": 1540,
+        "wires": [
+            [
+                "1eb5605f661843d9"
+            ]
+        ]
+    },
+    {
+        "id": "e0ef5cea3ac7e2c4",
+        "type": "ui_text_input",
+        "z": "fd826bd405a70e3d",
+        "name": "",
+        "label": "Light",
+        "tooltip": "",
+        "group": "b7a8fcbd8d16fb75",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "light",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 110,
+        "y": 1420,
+        "wires": [
+            [
+                "1eb5605f661843d9"
+            ]
+        ]
+    },
+    {
+        "id": "f93f063e2bef8a4e",
+        "type": "http request",
+        "z": "fd826bd405a70e3d",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 510,
+        "y": 1320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1eb5605f661843d9",
+        "type": "function",
+        "z": "fd826bd405a70e3d",
+        "name": "SET",
+        "func": "msg.url =\"http://172.20.10.3/set?\"+msg.topic+\"=\"+msg.payload;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 1460,
+        "wires": [
+            [
+                "f93f063e2bef8a4e"
+            ]
+        ]
+    },
+    {
+        "id": "8ad1cfb03c73876c",
+        "type": "ui_led",
+        "z": "fd826bd405a70e3d",
+        "order": 2,
+        "group": "902d2a402114a4db",
+        "width": 0,
+        "height": 0,
+        "label": "Hot",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 590,
+        "y": 2240,
+        "wires": []
+    },
+    {
+        "id": "829471b3a0ae9913",
+        "type": "function",
+        "z": "fd826bd405a70e3d",
+        "name": "Led_Hot",
+        "func": "msg.payload = msg.payload.status.heat;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 2280,
+        "wires": [
+            [
+                "8ad1cfb03c73876c"
+            ]
+        ]
+    },
+    {
+        "id": "b54abdd5418c3731",
+        "type": "function",
+        "z": "fd826bd405a70e3d",
+        "name": "Led_Cold",
+        "func": "msg.payload = msg.payload.status.cold;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 2340,
+        "wires": [
+            [
+                "72f198ebf06c2bd3"
+            ]
+        ]
+    },
+    {
+        "id": "72f198ebf06c2bd3",
+        "type": "ui_led",
+        "z": "fd826bd405a70e3d",
+        "order": 3,
+        "group": "902d2a402114a4db",
+        "width": 0,
+        "height": 0,
+        "label": "Cold",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 690,
+        "y": 2360,
+        "wires": []
+    },
+    {
+        "id": "b432d626040a5021",
+        "type": "function",
+        "z": "fd826bd405a70e3d",
+        "name": "Temperature",
+        "func": "msg.payload = msg.payload.status.temperature;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 2440,
+        "wires": [
+            [
+                "063868941014af14"
+            ]
+        ]
+    },
+    {
+        "id": "40c9d05ccc12b46a",
+        "type": "function",
+        "z": "fd826bd405a70e3d",
+        "name": "Light",
+        "func": "msg.payload = msg.payload.status.light;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 2520,
+        "wires": [
+            [
+                "a89427e45cc9327b"
+            ]
+        ]
+    },
+    {
+        "id": "063868941014af14",
+        "type": "ui_chart",
+        "z": "fd826bd405a70e3d",
+        "name": "",
+        "group": "791c60960a560ec7",
+        "order": 3,
+        "width": "0",
+        "height": "0",
+        "label": "Temperature",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": false,
+        "ymin": "-80",
+        "ymax": "80",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 790,
+        "y": 2460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a89427e45cc9327b",
+        "type": "ui_gauge",
+        "z": "fd826bd405a70e3d",
+        "name": "",
+        "group": "791c60960a560ec7",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Light",
+        "label": "",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "4000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 650,
+        "y": 2560,
+        "wires": []
+    },
+    {
+        "id": "e6176ac251c92ed1",
+        "type": "ui_led",
+        "z": "fd826bd405a70e3d",
+        "order": 4,
+        "group": "902d2a402114a4db",
+        "width": 0,
+        "height": 0,
+        "label": "Fire",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 670,
+        "y": 2640,
+        "wires": []
+    },
+    {
+        "id": "4a949e3b9e0c0d48",
+        "type": "function",
+        "z": "fd826bd405a70e3d",
+        "name": "Fire",
+        "func": "msg.payload = msg.payload.status.fire;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 2600,
+        "wires": [
+            [
+                "e6176ac251c92ed1"
+            ]
+        ]
+    },
+    {
+        "id": "106aaf8b53577141",
+        "type": "serial in",
+        "z": "fd826bd405a70e3d",
+        "name": "",
+        "serial": "b0fb6431ceceb973",
+        "x": 110,
+        "y": 2420,
+        "wires": [
+            [
+                "b613062b8eaaa6a9"
+            ]
+        ]
+    },
+    {
+        "id": "b613062b8eaaa6a9",
+        "type": "json",
+        "z": "fd826bd405a70e3d",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 290,
+        "y": 2420,
+        "wires": [
+            [
+                "829471b3a0ae9913",
+                "b54abdd5418c3731",
+                "b432d626040a5021",
+                "40c9d05ccc12b46a",
+                "4a949e3b9e0c0d48"
+            ]
+        ]
+    },
+    {
+        "id": "543fc77756da418e",
+        "type": "ui_text_input",
+        "z": "fd826bd405a70e3d",
+        "name": "",
+        "label": "Temperature",
+        "tooltip": "",
+        "group": "902d2a402114a4db",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "temperature",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 110,
+        "y": 2060,
+        "wires": [
+            [
+                "db4f51cb3c2069dc"
+            ]
+        ]
+    },
+    {
+        "id": "db4f51cb3c2069dc",
+        "type": "function",
+        "z": "fd826bd405a70e3d",
+        "name": "SET_SERIAL",
+        "func": "return msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 2100,
+        "wires": [
+            [
+                "f0e39adb5fd870c2"
+            ]
+        ]
+    },
+    {
+        "id": "2b90eb78141ca52a",
+        "type": "trigger",
+        "z": "fd826bd405a70e3d",
+        "name": "",
+        "op1": "",
+        "op2": "0",
+        "op1type": "pay",
+        "op2type": "str",
+        "duration": "-2",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 460,
+        "y": 820,
+        "wires": [
+            [
+                "b04d38bd666c3340"
+            ]
+        ]
+    },
+    {
+        "id": "1dab889297f90af2",
+        "type": "debug",
+        "z": "fd826bd405a70e3d",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 220,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "271a05c28f1d1e6b",
+        "type": "mqtt in",
+        "z": "fd826bd405a70e3d",
+        "name": "",
+        "topic": "uca/iot/couscous",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "59d6c12b9f51910a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 160,
+        "y": 120,
+        "wires": [
+            [
+                "1dab889297f90af2"
+            ]
+        ]
+    },
+    {
+        "id": "e8451161fd518278",
+        "type": "inject",
+        "z": "91d3e3e2f3d403b2",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 190,
+        "y": 220,
+        "wires": [
+            [
+                "00cfe8bb3c2ae70c"
+            ]
+        ]
+    },
+    {
+        "id": "00cfe8bb3c2ae70c",
+        "type": "function",
+        "z": "91d3e3e2f3d403b2",
+        "name": "Téléportation",
+        "func": "// create random position\nvar lat = 43.61999752 + Math.random() * 0.1;\nvar lon = 7.0499998 + Math.random() * 0.1;\nmsg.payload={\n    lat:lat, \n    lon:lon, \n    name:\"Gilles\", \n    description: \"Temperature in my swimming pool\",\n    value: 20.5,\n    unit: \"°C\",\n    icon:\"male\", \n    color:\"#000\"};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 280,
+        "wires": [
+            [
+                "4fbe6756507df24d",
+                "42b8ea3596ba0a99"
+            ]
+        ]
+    },
+    {
+        "id": "6b986ec77b36c4d7",
+        "type": "ui_button",
+        "z": "91d3e3e2f3d403b2",
+        "name": "",
+        "group": "c381d97f0297a045",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Move Gilles",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "fa-male",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 190,
+        "y": 280,
+        "wires": [
+            [
+                "00cfe8bb3c2ae70c"
+            ]
+        ]
+    },
+    {
+        "id": "925f3b7965da3271",
+        "type": "mqtt in",
+        "z": "91d3e3e2f3d403b2",
+        "name": "",
+        "topic": "uca/iot/piscine",
+        "qos": "0",
+        "datatype": "utf8",
+        "broker": "59d6c12b9f51910a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 460,
+        "wires": [
+            [
+                "c9af18af38a83c29"
+            ]
+        ]
+    },
+    {
+        "id": "c9af18af38a83c29",
+        "type": "json",
+        "z": "91d3e3e2f3d403b2",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 372,
+        "y": 419,
+        "wires": [
+            [
+                "d4e00a19d43a8be2"
+            ]
+        ]
+    },
+    {
+        "id": "26dc85a71fbf815e",
+        "type": "ui_button",
+        "z": "91d3e3e2f3d403b2",
+        "name": "",
+        "group": "c381d97f0297a045",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 181.5,
+        "y": 376,
+        "wires": [
+            [
+                "d22925aa4c16abf6"
+            ]
+        ]
+    },
+    {
+        "id": "d22925aa4c16abf6",
+        "type": "function",
+        "z": "91d3e3e2f3d403b2",
+        "name": "Reset Layer",
+        "func": "// clear the \"by default\" layer \nmsg.payload = {\"command\": { \"clear\": \"unknown\" } };\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 384.5,
+        "y": 349,
+        "wires": [
+            [
+                "42b8ea3596ba0a99"
+            ]
+        ]
+    },
+    {
+        "id": "d4e00a19d43a8be2",
+        "type": "function",
+        "z": "91d3e3e2f3d403b2",
+        "name": "json adapt",
+        "func": "/* \n* Ce node permet d'adapter le format json produit \n* par l'ESP à celui attendu par la map \n*/\n\n//http://stevesnoderedguide.com/node-red-functions\nvar nmsg = { // on cree un nouveau message nodered\n    topic: msg.topic  // on garde le vieux topic\n    };\n\n// Gestion de l'occupation\nvar busy;\n/*\nif (msg.payload.piscine.occuped === false)\n  busy = \"battery-empty\";\nelse\n  busy = \"battery-full\";\n*/\nbusy = \"battery-full\";\n\nvar hsc;\nif (msg.payload.piscine.hotspot === false)\n  hsc = \"Blue\";\nelse\n  hsc = \"Red\";\n\nnmsg.payload = { // on modifie/adapte la payload\n    layer : \"swimming pools\",\n    name : msg.payload.info.ident,\n    description: msg.payload.info.user,\n    unit:\"C\",\n    color: \"#000\",\n    value: msg.payload.status.temperature,\n    lat: msg.payload.location.gps.lat,\n    lon: msg.payload.location.gps.lon,\n    iconColor : hsc,\n    //icon: \"male\",\n    icon: busy    \n}\n\nreturn nmsg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610.5,
+        "y": 379,
+        "wires": [
+            [
+                "42b8ea3596ba0a99"
+            ]
+        ]
+    },
+    {
+        "id": "68db9c99cb7efd02",
+        "type": "comment",
+        "z": "91d3e3e2f3d403b2",
+        "name": "Fichier mapflow.json  : How to embed Map in Dashboard and connect it via MQTT.",
+        "info": "This example shows how to embed the Worldmap \nwithin the `node-red-dashboard`\n\nThe  flow creates a dashboard button that \ngenerates a randon position, with the required \nicon, and passes that to the worldmap. The\nmap is configured to automatically pan to the\nposition of any point that arrives.\n",
+        "x": 380,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "4fbe6756507df24d",
+        "type": "worldmap-tracks",
+        "z": "91d3e3e2f3d403b2",
+        "name": "",
+        "depth": "6",
+        "layer": "combined",
+        "smooth": false,
+        "x": 593,
+        "y": 232,
+        "wires": [
+            [
+                "42b8ea3596ba0a99"
+            ]
+        ]
+    },
+    {
+        "id": "42b8ea3596ba0a99",
+        "type": "ui_worldmap",
+        "z": "91d3e3e2f3d403b2",
+        "group": "c381d97f0297a045",
+        "order": 4,
+        "width": "0",
+        "height": "0",
+        "name": "",
+        "lat": "43.61999752",
+        "lon": "7.0499998",
+        "zoom": "11",
+        "layer": "OSMC",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "show",
+        "layers": "show",
+        "panit": "true",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "true",
+        "coords": "deg",
+        "showgrid": "true",
+        "allowFileDrop": "false",
+        "path": "/worldmap",
+        "overlist": "DR,CO,RA,DN,TL,HM",
+        "maplist": "OSMG,OSMC,EsriC,EsriS,EsriT,EsriO,EsriDG,NatGeo,UKOS,OpTop",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 860,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "01b369780431a3cf",
+        "type": "ui_led",
+        "z": "91d3e3e2f3d403b2",
+        "order": 0,
+        "group": "8cac27d44580223b",
+        "width": 0,
+        "height": 0,
+        "label": "another tab sp",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 170,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "ff5a8d21dd1257b6",
+        "type": "mqtt in",
+        "z": "91d3e3e2f3d403b2",
+        "name": "",
+        "topic": "uca/iot/piscinepublish35",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "59d6c12b9f51910a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 160,
+        "y": 560,
+        "wires": [
+            [
+                "9b8dc549edfc96f6"
+            ]
+        ]
+    },
+    {
+        "id": "211ab164df5adc80",
+        "type": "debug",
+        "z": "91d3e3e2f3d403b2",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "9b8dc549edfc96f6",
+        "type": "json",
+        "z": "91d3e3e2f3d403b2",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 330,
+        "y": 620,
+        "wires": [
+            [
+                "211ab164df5adc80"
+            ]
+        ]
+    },
+    {
+        "id": "9cbddadd03c94b7b",
+        "type": "inject",
+        "z": "39e2d54540c25385",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 190,
+        "y": 200,
+        "wires": [
+            [
+                "5589e9cd261e7532"
+            ]
+        ]
+    },
+    {
+        "id": "5589e9cd261e7532",
+        "type": "function",
+        "z": "39e2d54540c25385",
+        "name": "Téléportation",
+        "func": "// create random position\nvar lat = 43.61999752 + Math.random() * 0.1;\nvar lon = 7.0499998 + Math.random() * 0.1;\nmsg.payload={\n    layer:\"swimming pools\",\n    lat:lat, \n    lon:lon, \n    name:global.get(\"clientid\"), \n    description: \"Temperature in my swimming pool\",\n    value: 20.5,\n    unit: \"°C\",\n    icon:\"male\", \n    color:\"#000\"};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 240,
+        "wires": [
+            [
+                "ac54ad946b872ad0",
+                "0f703bf25fa875e9",
+                "fd8286429b5bc550"
+            ]
+        ]
+    },
+    {
+        "id": "7a2807e992c04f36",
+        "type": "ui_button",
+        "z": "39e2d54540c25385",
+        "name": "",
+        "group": "f5a02307f3956e9b",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Move Client",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "fa-male",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 190,
+        "y": 260,
+        "wires": [
+            [
+                "5589e9cd261e7532"
+            ]
+        ]
+    },
+    {
+        "id": "ad760199875f2498",
+        "type": "mqtt in",
+        "z": "39e2d54540c25385",
+        "g": "d0e0f2bdd9e9e6bb",
+        "name": "",
+        "topic": "uca/iot/piscine",
+        "qos": "0",
+        "datatype": "utf8",
+        "broker": "59d6c12b9f51910a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 620,
+        "wires": [
+            [
+                "0f74e704dc383e08",
+                "dc29e6be177690b1"
+            ]
+        ]
+    },
+    {
+        "id": "7b1066f555d47e02",
+        "type": "debug",
+        "z": "39e2d54540c25385",
+        "g": "d0e0f2bdd9e9e6bb",
+        "name": "debug 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "0f74e704dc383e08",
+        "type": "json",
+        "z": "39e2d54540c25385",
+        "g": "d0e0f2bdd9e9e6bb",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 390,
+        "y": 660,
+        "wires": [
+            [
+                "417d6ca635ff8337"
+            ]
+        ]
+    },
+    {
+        "id": "ac54ad946b872ad0",
+        "type": "worldmap-tracks",
+        "z": "39e2d54540c25385",
+        "name": "",
+        "depth": "6",
+        "layer": "combined",
+        "smooth": false,
+        "x": 650,
+        "y": 220,
+        "wires": [
+            [
+                "0f703bf25fa875e9"
+            ]
+        ]
+    },
+    {
+        "id": "0f703bf25fa875e9",
+        "type": "ui_worldmap",
+        "z": "39e2d54540c25385",
+        "group": "f5a02307f3956e9b",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "name": "",
+        "lat": "43.61999752",
+        "lon": "7.0499998",
+        "zoom": "11",
+        "layer": "OSMC",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "show",
+        "layers": "show",
+        "panit": "false",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "false",
+        "coords": "deg",
+        "showgrid": "true",
+        "allowFileDrop": "false",
+        "path": "/worldmap",
+        "overlist": "DR,CO,RA,DN,TL,HM",
+        "maplist": "OSMG,OSMC,EsriC,EsriS,EsriT,EsriO,EsriDG,NatGeo,UKOS,OpTop",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 1220,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "8480b361e48d4086",
+        "type": "ui_button",
+        "z": "39e2d54540c25385",
+        "g": "dd4dac0e3a9567a6",
+        "name": "",
+        "group": "f5a02307f3956e9b",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 170,
+        "y": 340,
+        "wires": [
+            [
+                "d957d62411d4bebd"
+            ]
+        ]
+    },
+    {
+        "id": "d957d62411d4bebd",
+        "type": "function",
+        "z": "39e2d54540c25385",
+        "g": "dd4dac0e3a9567a6",
+        "name": "Reset Layer",
+        "func": "// clear the \"by default\" layer \nmsg.payload = {\"command\": { \"clear\": \"swimming pools\" } };\nflow.set(\"clientid\", null);\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 340,
+        "wires": [
+            [
+                "0f703bf25fa875e9"
+            ]
+        ]
+    },
+    {
+        "id": "417d6ca635ff8337",
+        "type": "function",
+        "z": "39e2d54540c25385",
+        "g": "d0e0f2bdd9e9e6bb",
+        "name": "json adapt",
+        "func": "//http://stevesnoderedguide.com/node-red-functions\n\nvar nmsg = { // nouveau message \n  topic: msg.topic // on garde l'ancien topic \n};\n\nvar busy;\nif (msg.payload.piscine.oocuped === false)\n  busy = \"battery-empty\";\nelse\n  busy = \"battery-full\";\n\nvar hsc;\nif (msg.payload.piscine.hotspot === false)\n  hsc = \"Blue\";\nelse\n  hsc = \"Red\";\n\nvar wl_label = \"Lien de demande d'ouverture de \" + msg.payload.info.ident \n                + \" par \" + flow.get('clientid') + \" : Cliquez moi !\"\nnmsg.payload = { // on modifie/adapte la payload\n  layer: \"swimming pools\",\n  name: msg.payload.info.ident,\n  description: msg.payload.info.user,\n  weblink: {\n    \"name\": wl_label, \"url\": \"http://127.0.0.1:5000/open?idu=\" + flow.get('clientid') + \"&idswp=\" + msg.payload.info.ident\n},\n  radius:100,\n  unit: \"C\",\n  color: \"#000\",\n  value: msg.payload.status.temperature,\n  lat: msg.payload.location.gps.lat,\n  lon: msg.payload.location.gps.lon,\n  iconColor: hsc,\n  icon: busy\n}\n\nreturn nmsg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 660,
+        "wires": [
+            [
+                "0f703bf25fa875e9",
+                "7b1066f555d47e02"
+            ]
+        ]
+    },
+    {
+        "id": "9c7588438b2eb37b",
+        "type": "http in",
+        "z": "39e2d54540c25385",
+        "g": "b5407bdd7a5eb12d",
+        "name": "Open",
+        "url": "/open",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 170,
+        "y": 980,
+        "wires": [
+            [
+                "d4dcfba5d7c3b1d4",
+                "34db77b0c904ccd0"
+            ]
+        ]
+    },
+    {
+        "id": "d4dcfba5d7c3b1d4",
+        "type": "debug",
+        "z": "39e2d54540c25385",
+        "g": "b5407bdd7a5eb12d",
+        "name": "Open debug",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 510,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "34db77b0c904ccd0",
+        "type": "http response",
+        "z": "39e2d54540c25385",
+        "g": "b5407bdd7a5eb12d",
+        "name": "",
+        "statusCode": "200",
+        "headers": {},
+        "x": 520,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "5213366ce5325c0f",
+        "type": "debug",
+        "z": "39e2d54540c25385",
+        "g": "127cec26e870f69d",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 600,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "dbe366221b95a8ad",
+        "type": "ui_form",
+        "z": "39e2d54540c25385",
+        "g": "127cec26e870f69d",
+        "name": "WaterBnB Client Identification",
+        "label": "WaterBnB Client Login (= numéro étudiant UCA)",
+        "group": "f5a02307f3956e9b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Client ID",
+                "value": "clientid",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "clientid": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "clientform",
+        "topicType": "str",
+        "splitLayout": false,
+        "className": "",
+        "x": 250,
+        "y": 480,
+        "wires": [
+            [
+                "5213366ce5325c0f",
+                "977ec64fd0a3f20a"
+            ]
+        ]
+    },
+    {
+        "id": "fd8286429b5bc550",
+        "type": "debug",
+        "z": "39e2d54540c25385",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "bec3af912684badc",
+        "type": "mqtt in",
+        "z": "39e2d54540c25385",
+        "g": "acea97b9674922d4",
+        "name": "",
+        "topic": "uca/waterbnb/GillesM/a50",
+        "qos": "2",
+        "datatype": "utf8",
+        "broker": "33d7d4d518069598",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 230,
+        "y": 820,
+        "wires": [
+            [
+                "a44a491c0691ad43"
+            ]
+        ]
+    },
+    {
+        "id": "db94cc8baa1a3ad0",
+        "type": "debug",
+        "z": "39e2d54540c25385",
+        "g": "acea97b9674922d4",
+        "name": "debug from owntracks MQTT topic",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "a44a491c0691ad43",
+        "type": "json",
+        "z": "39e2d54540c25385",
+        "g": "acea97b9674922d4",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 450,
+        "y": 820,
+        "wires": [
+            [
+                "db94cc8baa1a3ad0",
+                "7fee30a2b540f5d7"
+            ]
+        ]
+    },
+    {
+        "id": "7fee30a2b540f5d7",
+        "type": "function",
+        "z": "39e2d54540c25385",
+        "g": "acea97b9674922d4",
+        "name": "json convert",
+        "func": "// Convert json of owntracks to worldmap\nreturn {\n    payload: {\n        layer:\"waterbnb\",\n        name: msg.payload.tid,\n        lat: msg.payload.lat,\n        lon: msg.payload.lon,\n        icon: 'user-circle-o',\n        iconColor : \"Blue\"\n    }\n};",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 780,
+        "wires": [
+            [
+                "0f703bf25fa875e9"
+            ]
+        ]
+    },
+    {
+        "id": "dc29e6be177690b1",
+        "type": "debug",
+        "z": "39e2d54540c25385",
+        "g": "d0e0f2bdd9e9e6bb",
+        "name": "debug  from swimming pools",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 460,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "e4bba64f2af99294",
+        "type": "comment",
+        "z": "39e2d54540c25385",
+        "name": "Formulaire d'identification du client",
+        "info": "Grâce au formulaire, on positionne une variable globale au flow : l'ident du client qui utilise le service.",
+        "x": 1240,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "977ec64fd0a3f20a",
+        "type": "function",
+        "z": "39e2d54540c25385",
+        "g": "127cec26e870f69d",
+        "name": "Callback du formulaire d'identification",
+        "func": "// Ce node permet de stocker l'identificateur du \n// client dans le flow (un peu comme une variable \n// globale)\n\n\n//https://stevesnoderedguide.com/node-red-variables\n//https://techexplorations.com/guides/esp32/node-red-esp32-project/node-red-messages-variables/\n\nif (msg.topic === \"clientform\"){\n  flow.set(\"clientid\", msg.payload.clientid);\n  }\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "036e08708e0e269a",
+        "type": "comment",
+        "z": "39e2d54540c25385",
+        "name": "Fichier WaterBnB.json => Dashboard \"donné\" à un client du service WaterBnB",
+        "info": "Lorsqu'un client va vouloir accéder à une piscine, il va devoir utiliser cette interface graphique.\n",
+        "x": 350,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "5c7c3eb51f6ac1d1",
+        "type": "comment",
+        "z": "39e2d54540c25385",
+        "name": "Reset display",
+        "info": "",
+        "x": 650,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "27d93c1a06e28d3b",
+        "type": "comment",
+        "z": "39e2d54540c25385",
+        "name": "Affichage avec hyperlien d'ouverture des piscines ",
+        "info": "",
+        "x": 1280,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "886e289ff8d2a0c6",
+        "type": "comment",
+        "z": "39e2d54540c25385",
+        "name": "Pour tester la réception de la demande d'ouverture",
+        "info": "",
+        "x": 870,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "2ffc80c819212569",
+        "type": "comment",
+        "z": "39e2d54540c25385",
+        "name": "Affichage de la géolocalisation du client de WaterBnB",
+        "info": "",
+        "x": 1160,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "8139d7902a118c77",
+        "type": "comment",
+        "z": "39e2d54540c25385",
+        "name": "trois choses à paramétrer => le topic de owntracks, le lien de demande d'ouverture et l'ID du client via le formulaire",
+        "info": "Lorsqu'un client va vouloir accéder à une piscine, il va devoir utiliser cette interface graphique.\n",
+        "x": 470,
+        "y": 100,
+        "wires": []
+    }
+]
