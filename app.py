@@ -12,7 +12,7 @@ from flask import render_template
 from flask_mqtt import Mqtt
 from flask_pymongo import PyMongo
 from pymongo import MongoClient
-global data
+data="test"
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Initialisation :  Mongo DataBase
 
@@ -60,7 +60,6 @@ if ADMIN :
 # Initialisation :  Flask service
 app = Flask(__name__)
 
-data="test"
 app.secret_key = 'BAD_SECRET_KEY'
   
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%        
