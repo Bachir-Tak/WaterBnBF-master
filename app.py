@@ -60,7 +60,7 @@ if ADMIN :
 # Initialisation :  Flask service
 app = Flask(__name__)
 
-
+data="test"
 app.secret_key = 'BAD_SECRET_KEY'
   
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%        
