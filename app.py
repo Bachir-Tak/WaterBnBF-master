@@ -92,6 +92,8 @@ def client():
 @app.route("/open", methods= ['GET', 'POST'])
 # @app.route('/open') # ou en GET seulement
 def openthedoor():
+    print("ezedzed");
+    print(topicname);
     idu = request.args.get('idu') # idu : clientid of the service
     idswp = request.args.get('idswp')  #idswp : id of the swimming pool
     session['idu'] = idu
@@ -120,6 +122,7 @@ def openthedoor():
 
 @app.route("/users")
 def lists_users(): # Liste des utilisateurs déclarés
+    
     todos = userscollection.find()
     return jsonify([todo['name'] for todo in todos])
 
