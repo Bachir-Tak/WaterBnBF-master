@@ -59,7 +59,13 @@ if ADMIN :
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Initialisation :  Flask service
 app = Flask(__name__)
+app.config['MQTT_BROKER_URL'] =  "test.mosquitto.org"
+app.config['MQTT_BROKER_PORT'] = 1883
+app.config['MQTT_TLS_ENABLED'] = False  # If your broker supports TLS, set it True
 
+topicname = "uca/iot/piscine"
+data=dict();
+mqtt_client = Mqtt(app)
 app.secret_key = 'BAD_SECRET_KEY'
   
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%        
@@ -92,8 +98,7 @@ def client():
 @app.route("/open", methods= ['GET', 'POST'])
 # @app.route('/open') # ou en GET seulement
 def openthedoor():
-    print("ezedzed");
-    print(topicname);
+
     idu = request.args.get('idu') # idu : clientid of the service
     idswp = request.args.get('idswp')  #idswp : id of the swimming pool
     session['idu'] = idu
@@ -132,16 +137,6 @@ def publish_message():
    publish_result = mqtt_client.publish(request_data['topic'], request_data['msg'])
    return jsonify({'code': publish_result[0]})
 
-#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%        
-# Initialisation MQTT
-app.config['MQTT_BROKER_URL'] =  "test.mosquitto.org"
-app.config['MQTT_BROKER_PORT'] = 1883
-app.config['MQTT_TLS_ENABLED'] = False  # If your broker supports TLS, set it True
-
-topicname = "uca/iot/piscine"
-data=dict();
-mqtt_client = Mqtt(app)
-
 @mqtt_client.on_connect()
 def handle_connect(client, userdata, flags, rc):
    if rc == 0:
@@ -159,7 +154,6 @@ def handle_mqtt_message(client, userdata, msg):
         topic=msg.topic,
         payload=msg.payload.decode()
     )
-    print("oui")
 
     #    print('Received message on topic: {topic} with payload: {payload}'.format(**data))
     print("\n msg.topic = {}".format(msg.topic))
@@ -181,4 +175,4 @@ if __name__ == '__main__':
     # run() method of Flask class runs the application 
     # on the local development server.
     app.run(debug=False) #host='127.0.0.1', port=5000)
-    
+
