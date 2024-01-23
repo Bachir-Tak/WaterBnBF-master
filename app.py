@@ -165,17 +165,17 @@ def on_message(client, userdata, msg):
 
         who = dic["info"]["ident"] # Qui a publié ?
         t = dic["status"]["temperature"] # Quelle température ?
-
+client = Mqtt.Client()
+#client.username_pw_set(username, password)
+client.on_connect = on_connect
+client.on_message = on_message
+client.connect("test.mosquitto.org")
+client.loop_start()
+    # run() method of Flask class runs the application 
+    # on the local development server.
 
 #%%%%%%%%%%%%%  main driver function
 if __name__ == '__main__':
-    client = Mqtt.Client()
-    #client.username_pw_set(username, password)
-    client.on_connect = on_connect
-    client.on_message = on_message
-    client.connect("test.mosquitto.org")
-    client.loop_start()
-    # run() method of Flask class runs the application 
-    # on the local development server.
+ 
     app.run(port=os.getenv("PORT", default=5000),debug=False) #host='127.0.0.1', port=5000)
 
