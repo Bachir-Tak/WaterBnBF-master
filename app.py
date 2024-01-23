@@ -23,8 +23,7 @@ ADMIN=True # Faut etre ADMIN pour ecrire dans la base
 client = MongoClient("mongodb+srv://visitor:doliprane@ac-hb4shhb-shard-00-02.7c2pqfs.mongodb.net/?retryWrites=true&w=majority")
 
 # db is an attribute of client =>  all databases 
-global data;
-data=dict();
+
 # Looking for "WaterBnB" database
 #https://stackoverflow.com/questions/32438661/check-database-exists-in-mongodb-using-pymongo
 dbname= 'WaterBnB'
@@ -93,7 +92,6 @@ def client():
 @app.route("/open", methods= ['GET', 'POST'])
 # @app.route('/open') # ou en GET seulement
 def openthedoor():
-    global data
     idu = request.args.get('idu') # idu : clientid of the service
     idswp = request.args.get('idswp')  #idswp : id of the swimming pool
     session['idu'] = idu
@@ -102,6 +100,8 @@ def openthedoor():
 
     # ip addresses of the machine asking for opening
     ip_addr = request.environ.get('HTTP_X_FORWARDED_FOR', request.remote_addr)
+    global data
+
     paydata=json.loads(data["payload"]) 
 
     if userscollection.find_one({"name" : idu}) !=  None:
@@ -136,6 +136,7 @@ app.config['MQTT_BROKER_PORT'] = 1883
 app.config['MQTT_TLS_ENABLED'] = False  # If your broker supports TLS, set it True
 
 topicname = "uca/iot/piscine"
+data=dict();
 mqtt_client = Mqtt(app)
 
 @mqtt_client.on_connect()
