@@ -1,6 +1,5 @@
 import json
 import csv
-import os
 
 from flask import request
 from flask import jsonify
@@ -177,5 +176,5 @@ if __name__ == '__main__':
     client.loop_start()
     # run() method of Flask class runs the application 
     # on the local development server.
-    app.run(port=os.getenv("PORT", default=5000),debug=False) #host='127.0.0.1', port=5000)
+    app.run(host='0.0.0.0',debug=False) #host='127.0.0.1', port=5000)
 
