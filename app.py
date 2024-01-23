@@ -9,7 +9,7 @@ from flask import render_template
 #https://python-adv-web-apps.readthedocs.io/en/latest/flask.html
 
 #https://www.emqx.com/en/blog/how-to-use-mqtt-in-flask
-from flask_mqtt import Mqtt
+import paho.mqtt.client as Mqtt
 from flask_pymongo import PyMongo
 from pymongo import MongoClient
 
@@ -59,13 +59,10 @@ if ADMIN :
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Initialisation :  Flask service
 app = Flask(__name__)
-app.config['MQTT_BROKER_URL'] =  "test.mosquitto.org"
-app.config['MQTT_BROKER_PORT'] = 1883
-app.config['MQTT_TLS_ENABLED'] = False  # If your broker supports TLS, set it True
+
 
 topicname = "uca/iot/piscine"
 data=dict();
-mqtt_client = Mqtt(app)
 app.secret_key = 'BAD_SECRET_KEY'
   
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%        
@@ -121,7 +118,7 @@ def openthedoor():
     else:
         granted = "NO"
  
-    mqtt_client.publish("uca/iot/piscinepublish35",'{"idswp":"'+session['idswp']+'","granted":"'+granted+'"}')
+    client.publish("uca/iot/piscinepublish35",'{"idswp":"'+session['idswp']+'","granted":"'+granted+'"}')
     return  jsonify({'idu' : session['idu'], 'idswp' : session['idswp'], "granted" : granted}), 200
 
 
@@ -134,20 +131,20 @@ def lists_users(): # Liste des utilisateurs déclarés
 @app.route('/publish', methods=['POST'])
 def publish_message():
    request_data = request.get_json()
-   publish_result = mqtt_client.publish(request_data['topic'], request_data['msg'])
+   publish_result = client.publish(request_data['topic'], request_data['msg'])
    return jsonify({'code': publish_result[0]})
 
-@mqtt_client.on_connect()
-def handle_connect(client, userdata, flags, rc):
+
+def on_connect(client, userdata, flags, rc):
    if rc == 0:
        print('Connected successfully')
-       mqtt_client.subscribe(topicname) # subscribe topic
+       client.subscribe(topicname) # subscribe topic
    else:
        print('Bad connection. Code:', rc)
 
 
-@mqtt_client.on_message()
-def handle_mqtt_message(client, userdata, msg):
+
+def on_message(client, userdata, msg):
     global topicname
     global data
     data = dict(
@@ -171,7 +168,12 @@ def handle_mqtt_message(client, userdata, msg):
 
 #%%%%%%%%%%%%%  main driver function
 if __name__ == '__main__':
-
+    client = Mqtt.Client()
+    #client.username_pw_set(username, password)
+    client.on_connect = on_connect
+    client.on_message = on_message
+    client.connect("test.mosquitto.org")
+    client.loop_start()
     # run() method of Flask class runs the application 
     # on the local development server.
     app.run(debug=False) #host='127.0.0.1', port=5000)
